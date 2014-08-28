@@ -1,0 +1,25 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package Excepciones;
+
+/**
+ *
+ * @author Nestor
+ */
+public class SinAutoExcep extends Exception{
+
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	public SinAutoExcep() {
+    }
+
+    public SinAutoExcep(String message) {
+        super(message);
+    }
+    
+}
